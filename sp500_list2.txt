@@ -1,0 +1,503 @@
+Ticker  Company Sector  Market Capitalization
+AAPL    Apple Inc.  Electronic Technology            2,122,302,102,525
+MSFT    Microsoft Corporation   Technology Services          1,777,966,348,754
+GOOG    Alphabet Inc.   Technology Services          1,184,242,673,454
+GOOGL   Alphabet Inc.   Technology Services          1,184,242,673,454
+AMZN    Amazon.com, Inc.    Retail Trade                971,911,570,617
+BRK.B   Berkshire Hathaway Inc. New Finance             703,424,304,407
+XOM Exxon Mobil Corporation Energy Minerals             466,273,190,232
+UNH UnitedHealth Group Incorporated Health Services             463,128,811,145
+V   Visa Inc.   Commercial Services             461,034,533,556
+JNJ Johnson & Johnson   Health Technology               454,920,111,328
+JPM JP Morgan Chase & Co.   Finance             409,152,792,460
+NVDA    NVIDIA Corporation  Electronic Technology               406,170,601,501
+WMT Walmart Inc.    Retail Trade                390,523,608,487
+TSLA    Tesla, Inc. Consumer Durables               390,171,883,951
+MA  Mastercard Incorporated Commercial Services             365,172,034,245
+META    Meta Platforms, Inc.    Technology Services             363,402,133,359
+PG  Procter & Gamble Company (The)  Consumer Non-Durables               355,004,268,428
+LLY Eli Lilly and Company   Health Technology               354,496,018,315
+CVX Chevron Corporation Energy Minerals             342,408,717,940
+HD  Home Depot, Inc. (The)  Retail Trade                336,198,872,307
+MRK Merck & Company, Inc.   Health Technology               283,381,201,972
+BAC Bank of America Corporation Finance             276,533,245,276
+ABBV    AbbVie Inc. Health Technology               269,198,099,112
+PFE Pfizer, Inc.    Health Technology               267,811,227,419
+KO  Coca-Cola Company (The) Consumer Non-Durables               264,703,477,896
+AVGO    Broadcom Inc.   Electronic Technology               243,184,660,701
+PEP PepsiCo, Inc.   Consumer Non-Durables               242,173,726,507
+ORCL    Oracle Corporation  Technology Services             239,373,331,806
+TMO Thermo Fisher Scientific Inc    Health Technology               228,077,395,391
+COST    Costco Wholesale Corporation    Retail Trade                214,068,194,827
+CSCO    Cisco Systems, Inc. Electronic Technology               201,297,048,340
+NKE Nike, Inc.  Consumer Non-Durables               198,314,644,569
+DHR Danaher Corporation Health Technology               198,231,523,107
+MCD McDonald’s Corporation  Consumer Services               195,330,128,788
+ABT Abbott Laboratories Health Technology               194,164,371,689
+ACN Accenture plc   Technology Services             186,876,986,241
+TMUS    T-Mobile US, Inc.   Communications              186,511,156,901
+DIS Walt Disney Company (The)   Consumer Services               182,012,717,162
+VZ  Verizon Communications Inc. Communications              175,594,370,543
+NEE NextEra Energy, Inc.    Utilities               169,048,004,652
+CMCSA   Comcast Corporation Consumer Services               167,272,677,845
+WFC Wells Fargo & Company   Finance             163,203,335,085
+LIN Linde plc   Process Industries              162,606,368,616
+TXN Texas Instruments Incorporated  Electronic Technology               161,665,754,258
+ADBE    Adobe Inc.  Technology Services             160,176,647,870
+UPS United Parcel Service, Inc. Transportation              158,218,985,196
+PM  Philip Morris International Inc Consumer Non-Durables               157,252,522,105
+SCHW    Charles Schwab Corporation (The)    Finance             155,835,401,032
+MS  Morgan Stanley  Finance             153,005,599,656
+BMY Bristol-Myers Squibb Company    Health Technology               152,233,063,943
+COP ConocoPhillips  Energy Minerals             149,727,915,989
+CRM Salesforce, Inc.    Technology Services             149,600,006,104
+RTX Raytheon Technologies Corporation   Electronic Technology               148,005,720,888
+NFLX    Netflix, Inc.   Technology Services             146,914,622,417
+HON Honeywell International Inc.    Electronic Technology               145,208,160,057
+AMGN    Amgen Inc.  Health Technology               144,557,273,896
+T   AT&T Inc.   Communications              138,335,068,913
+QCOM    QUALCOMM Incorporated   Electronic Technology               136,302,385,895
+CAT Caterpillar, Inc.   Producer Manufacturing              132,740,819,979
+UNP Union Pacific Corporation   Transportation              131,991,594,331
+IBM International Business Machines Corporation Technology Services             131,595,600,834
+DE  Deere & Company Producer Manufacturing              130,058,278,492
+BA  Boeing Company (The)    Electronic Technology               127,731,127,075
+LOW Lowe’s Companies, Inc.  Retail Trade                127,144,760,242
+GS  Goldman Sachs Group, Inc. (The) Finance             125,274,478,284
+INTC    Intel Corporation   Electronic Technology               125,006,833,778
+SBUX    Starbucks Corporation   Consumer Services               121,494,633,417
+LMT Lockheed Martin Corporation Electronic Technology               121,010,034,477
+SPGI    S&P Global Inc. Commercial Services             119,819,457,931
+CVS CVS Health Corporation  Retail Trade                117,179,570,233
+AXP American Express Company    Finance             115,761,283,251
+PLD Prologis, Inc.  Finance             115,332,762,554
+AMD Advanced Micro Devices, Inc.    Electronic Technology               114,154,815,321
+ELV Elevance Health, Inc.   Health Services             113,939,856,600
+BLK BlackRock, Inc. Finance             113,241,456,689
+INTU    Intuit Inc. Technology Services             111,443,091,363
+AMT American Tower Corporation (REIT)   Finance             108,118,277,370
+GILD    Gilead Sciences, Inc.   Health Technology               107,513,788,338
+MDT Medtronic plc.  Health Technology               106,214,875,259
+ADP Automatic Data Processing, Inc. Technology Services             101,325,833,537
+SYK Stryker Corporation Health Technology                 97,010,515,286
+C   Citigroup, Inc. Finance               95,080,109,415
+CI  Cigna Corporation   Health Services               94,846,357,195
+TJX TJX Companies, Inc. (The)   Retail Trade                  94,658,897,884
+CB  Chubb Limited   Finance               93,635,348,627
+EL  Estee Lauder Companies, Inc. (The)  Consumer Non-Durables                 93,574,031,756
+AMAT    Applied Materials, Inc. Producer Manufacturing                93,024,200,134
+MDLZ    Mondelez International, Inc.    Consumer Non-Durables                 91,168,695,998
+PYPL    PayPal Holdings, Inc.   Commercial Services               90,951,409,309
+ISRG    Intuitive Surgical, Inc.    Health Technology                 90,798,627,654
+BKNG    Booking Holdings Inc. Common Stock  Consumer Services                 87,538,725,092
+MMC Marsh & McLennan Companies, Inc.    Finance               86,385,014,763
+GE  General Electric Company    Producer Manufacturing                86,167,806,309
+ADI Analog Devices, Inc.    Electronic Technology                 85,902,943,404
+NOW ServiceNow, Inc.    Technology Services               83,643,823,454
+SLB Schlumberger N.V.   Industrial Services               82,243,638,916
+MO  Altria Group, Inc.  Consumer Non-Durables                 81,364,639,112
+DUK Duke Energy Corporation (Holding Company)   Utilities                 80,918,194,564
+REGN    Regeneron Pharmaceuticals, Inc. Health Technology                 77,805,087,767
+PGR Progressive Corporation (The)   Finance               77,779,167,632
+EOG EOG Resources, Inc. Energy Minerals               76,624,961,922
+SO  Southern Company (The)  Utilities                 76,577,244,392
+VRTX    Vertex Pharmaceuticals Incorporated Health Technology                 76,044,847,183
+NOC Northrop Grumman Corporation    Electronic Technology                 75,106,055,162
+ZTS Zoetis Inc. Health Technology                 74,529,573,782
+TGT Target Corporation  Retail Trade                  73,534,536,736
+BDX Becton, Dickinson and Company   Health Technology                 72,374,628,133
+MRNA    Moderna, Inc.   Health Technology                 72,248,980,311
+HCA HCA Healthcare, Inc.    Health Services               72,135,157,851
+MMM 3M Company  Health Technology                 71,497,300,066
+ITW Illinois Tool Works Inc.    Producer Manufacturing                71,365,539,926
+USB U.S. Bancorp    Finance               70,710,339,941
+APD Air Products and Chemicals, Inc.    Process Industries                68,825,039,664
+CSX CSX Corporation Transportation                68,307,261,913
+PNC PNC Financial Services Group, Inc. (The)    Finance               68,088,321,727
+GD  General Dynamics Corporation    Electronic Technology                 68,005,781,685
+EQIX    Equinix, Inc.   Technology Services               67,121,599,875
+BSX Boston Scientific Corporation   Distribution Services                 66,903,258,545
+ETN Eaton Corporation, PLC  Producer Manufacturing                65,505,171,681
+CCI Crown Castle Inc.   Finance               65,498,510,628
+AON Aon plc Finance               65,338,635,818
+FISV    Fiserv, Inc.    Finance               65,039,574,399
+FCX Freeport-McMoRan, Inc.  Non-Energy Minerals               64,462,657,719
+CL  Colgate-Palmolive Company   Consumer Non-Durables                 64,177,853,946
+LRCX    Lam Research Corporation    Producer Manufacturing                64,103,750,254
+CME CME Group Inc.  Finance               63,565,312,910
+SHW Sherwin-Williams Company (The)  Process Industries                63,163,621,690
+WM  Waste Management, Inc.  Industrial Services               62,671,637,766
+TFC Truist Financial Corporation    Finance               62,596,831,389
+HUM Humana Inc. Health Services               62,577,272,715
+MU  Micron Technology, Inc. Electronic Technology                 62,491,679,437
+ICE Intercontinental Exchange Inc.  Finance               60,898,884,163
+ATVI    Activision Blizzard, Inc    Technology Services               60,183,887,162
+CHTR    Charter Communications, Inc.    Consumer Services                 60,006,997,040
+OXY Occidental Petroleum Corporation    Energy Minerals               59,752,012,540
+KLAC    KLA Corporation Electronic Technology                 59,389,898,554
+NSC Norfolk Southern Corporation    Transportation                58,843,969,176
+EMR Emerson Electric Company    Electronic Technology                 57,986,774,199
+MCO Moody’s Corporation Commercial Services               57,231,677,928
+PXD Pioneer Natural Resources Company   Energy Minerals               56,828,864,803
+MPC Marathon Petroleum Corporation  Energy Minerals               56,712,651,446
+MET MetLife, Inc.   Finance               56,013,036,223
+GM  General Motors Company  Consumer Durables                 54,455,310,077
+MCK McKesson Corporation    Distribution Services                 54,000,631,279
+F   Ford Motor Company  Consumer Durables                 53,995,237,874
+D   Dominion Energy, Inc.   Utilities                 52,421,343,178
+MNST    Monster Beverage Corporation    Consumer Non-Durables                 52,195,235,458
+VLO Valero Energy Corporation   Energy Minerals               52,169,013,738
+PSA Public Storage  Finance               52,003,014,290
+DG  Dollar General Corporation  Retail Trade                  51,994,554,613
+KHC The Kraft Heinz Company Consumer Non-Durables                 51,973,787,732
+SNPS    Synopsys, Inc.  Technology Services               50,770,167,103
+ORLY    O’Reilly Automotive, Inc.   Retail Trade                  50,739,674,010
+MAR Marriott International  Consumer Services                 50,643,174,233
+SRE DBA Sempra  Utilities                 50,585,667,579
+KDP Keurig Dr Pepper Inc.   Consumer Non-Durables                 50,376,055,488
+AEP American Electric Power Company, Inc.   Utilities                 49,541,602,018
+GIS General Mills, Inc. Consumer Non-Durables                 48,660,571,818
+PSX Phillips 66 Energy Minerals               48,614,951,740
+FDX FedEx Corporation   Transportation                48,432,487,137
+APH Amphenol Corporation    Electronic Technology                 48,143,149,474
+EW  Edwards Lifesciences Corporation    Health Technology                 48,069,753,723
+ADM Archer-Daniels-Midland Company  Process Industries                48,006,317,895
+ROP Roper Technologies, Inc.    Technology Services               47,853,870,105
+AIG American International Group, Inc. New  Finance               47,312,965,383
+JCI Johnson Controls International plc  Producer Manufacturing                46,956,807,884
+HES Hess Corporation    Energy Minerals               46,471,334,619
+A   Agilent Technologies, Inc.  Health Technology                 46,332,312,268
+CDNS    Cadence Design Systems, Inc.    Technology Services               46,101,547,890
+KMB Kimberly-Clark Corporation  Consumer Non-Durables                 45,979,925,006
+HSY The Hershey Company Consumer Non-Durables                 45,977,462,491
+CTAS    Cintas Corporation  Consumer Services                 45,346,106,019
+TRV The Travelers Companies, Inc.   Finance               44,992,384,374
+AZO AutoZone, Inc.  Retail Trade                  44,853,110,203
+CTVA    Corteva, Inc.   Process Industries                44,712,910,943
+AFL AFLAC Incorporated  Finance               44,644,421,526
+CNC Centene Corporation Health Services               44,270,183,878
+MSI Motorola Solutions, Inc.    Electronic Technology                 44,260,357,986
+NXPI    NXP Semiconductors N.V. Electronic Technology                 44,107,345,780
+ECL Ecolab Inc. Process Industries                43,686,929,842
+PAYX    Paychex, Inc.   Technology Services               43,201,915,795
+ADSK    Autodesk, Inc.  Technology Services               43,144,871,115
+EXC Exelon Corporation  Utilities                 43,108,529,212
+KMI Kinder Morgan, Inc. Industrial Services               42,459,843,938
+NEM Newmont Corporation Non-Energy Minerals               42,385,651,504
+CMG Chipotle Mexican Grill, Inc.    Consumer Services                 41,927,348,392
+DVN Devon Energy Corporation    Energy Minerals               41,856,410,984
+O   Realty Income Corporation   Finance               41,737,091,938
+TT  Trane Technologies plc  Producer Manufacturing                41,540,525,991
+BIIB    Biogen Inc. Health Technology                 41,483,922,476
+DXCM    DexCom, Inc.    Health Technology                 41,383,694,492
+MCHP    Microchip Technology Incorporated   Electronic Technology                 41,382,650,930
+SPG Simon Property Group, Inc.  Finance               41,191,896,897
+STZ Constellation Brands, Inc.  Consumer Non-Durables                 41,188,739,883
+DOW Dow Inc.    Process Industries                41,183,993,232
+AJG Arthur J. Gallagher & Co.   Finance               41,111,692,044
+FIS Fidelity National Information Services, Inc.    Commercial Services               41,109,327,957
+ROST    Ross Stores, Inc.   Retail Trade                  40,894,056,511
+LVS Las Vegas Sands Corp.   Consumer Services                 40,882,894,897
+IQV IQVIA Holdings, Inc.    Health Services               40,769,934,555
+SYY Sysco Corporation   Transportation                40,668,093,246
+PH  Parker-Hannifin Corporation Producer Manufacturing                40,470,917,420
+MSCI    MSCI Inc    Technology Services               40,302,909,774
+WMB Williams Companies, Inc. (The)  Energy Minerals               40,156,480,135
+NUE Nucor Corporation   Non-Energy Minerals               39,946,421,432
+TEL TE Connectivity Ltd. New Switzerland Registered Shares  Electronic Technology                 39,377,828,579
+XEL Xcel Energy Inc.    Utilities                 39,374,526,043
+RSG Republic Services, Inc. Industrial Services               38,953,435,558
+BK  The Bank of New York Mellon Corporation Finance               38,926,760,209
+IDXX    IDEXX Laboratories, Inc.    Health Technology                 38,899,951,491
+COF Capital One Financial Corporation   Finance               38,559,185,973
+HAL Halliburton Company Energy Minerals               38,292,329,908
+LHX L3Harris Technologies, Inc. Electronic Technology                 38,032,959,602
+CARR    Carrier Global Corporation  Producer Manufacturing                37,840,831,726
+FTNT    Fortinet, Inc.  Electronic Technology                 37,811,824,703
+DD  DuPont de Nemours, Inc. Process Industries                37,134,973,297
+TDG Transdigm Group Inc.    Electronic Technology                 36,985,603,214
+PRU Prudential Financial, Inc.  Finance               36,652,799,438
+HLT Hilton Worldwide Holdings Inc.  Consumer Services                 36,511,563,263
+ALL Allstate Corporation (The)  Finance               36,352,276,909
+YUM Yum! Brands, Inc.   Consumer Services                 36,306,748,904
+ANET    Arista Networks, Inc.   Electronic Technology                 35,807,001,092
+CMI Cummins Inc.    Producer Manufacturing                35,271,131,608
+PCAR    PACCAR Inc. Producer Manufacturing                35,260,151,440
+AMP Ameriprise Financial, Inc.  Finance               35,242,184,951
+EA  Electronic Arts Inc.    Technology Services               34,902,062,261
+ED  Consolidated Edison, Inc.   Utilities                 34,609,773,718
+ODFL    Old Dominion Freight Line, Inc. Transportation                34,608,370,102
+OTIS    Otis Worldwide Corporation  Producer Manufacturing                34,534,984,974
+MTD Mettler-Toledo International, Inc.  Health Technology                 34,248,555,909
+WELL    Welltower Inc.  Finance               34,068,793,902
+ABC AmerisourceBergen Corporation   Distribution Services                 33,914,754,987
+CTSH    Cognizant Technology Solutions Corporation  Technology Services               33,456,285,465
+AME AMETEK, Inc.    Producer Manufacturing                33,426,196,937
+SBAC    SBA Communications Corporation  Finance               33,084,959,736
+DHI D.R. Horton, Inc.   Consumer Durables                 32,935,336,621
+ENPH    Enphase Energy, Inc.    Electronic Technology                 32,855,448,887
+VICI    VICI Properties Inc.    Finance               32,764,591,012
+KR  Kroger Company (The)    Retail Trade                  32,691,584,836
+CSGP    CoStar Group, Inc.  Technology Services               32,665,345,774
+DLTR    Dollar Tree, Inc.   Retail Trade                  32,430,067,196
+ROK Rockwell Automation, Inc.   Electronic Technology                 32,290,690,074
+WBD Warner Bros. Discovery, Inc. – Series A Consumer Services                 31,933,406,422
+KEYS    Keysight Technologies Inc.  Electronic Technology                 31,811,287,192
+BKR Baker Hughes Company    Industrial Services               31,766,729,095
+PCG Pacific Gas & Electric Co.  Utilities                 31,743,570,700
+OKE ONEOK, Inc. Industrial Services               31,702,437,243
+WBA Walgreens Boots Alliance, Inc.  Retail Trade                  31,619,379,646
+BF.B    Brown Forman Inc    Consumer Non-Durables                 31,445,486,283
+RMD ResMed Inc. Health Technology                 31,347,502,777
+PEG Public Service Enterprise Group Incorporated    Utilities                 31,329,054,477
+NDAQ    Nasdaq, Inc.    Finance               30,945,699,113
+PPG PPG Industries, Inc.    Process Industries                30,934,303,862
+GLW Corning Incorporated    Electronic Technology                 30,905,949,380
+DLR Digital Realty Trust, Inc.  Finance               30,845,389,615
+WEC WEC Energy Group, Inc.  Utilities                 30,552,989,717
+LYB LyondellBasell Industries NV    Process Industries                30,501,241,699
+ILMN    Illumina, Inc.  Health Technology                 30,476,875,591
+STT State Street Corporation    Finance               30,224,861,578
+CPRT    Copart, Inc.    Commercial Services               29,797,327,890
+ES  Eversource Energy (D/B/A)   Utilities                 29,651,408,309
+IFF International Flavors & Fragrances, Inc.    Consumer Non-Durables                 29,473,635,683
+GPN Global Payments Inc.    Commercial Services               29,297,964,576
+AWK American Water Works Company, Inc.  Utilities                 28,987,000,434
+DFS Discover Financial Services Finance               28,978,321,161
+GWW W.W. Grainger, Inc. Distribution Services                 28,930,022,866
+VRSK    Verisk Analytics, Inc.  Technology Services               28,612,741,244
+ALB Albemarle Corporation   Process Industries                28,492,731,787
+LEN Lennar Corporation  Consumer Durables                 28,247,470,443
+ON  ON Semiconductor Corporation    Electronic Technology                 28,077,261,459
+FAST    Fastenal Company    Distribution Services                 28,076,689,957
+HPQ HP Inc. Electronic Technology                 28,040,262,211
+CEG Constellation Energy Corporation    Utilities                 27,580,689,654
+WTW Willis Towers Watson Public Limited Company Finance               27,571,367,841
+APTV    Aptiv PLC   Producer Manufacturing                27,547,443,807
+URI United Rentals, Inc.    Finance               27,152,985,166
+CBRE    CBRE Group Inc  Finance               27,054,670,630
+TROW    T. Rowe Price Group, Inc.   Finance               26,719,687,650
+IT  Gartner, Inc.   Technology Services               26,546,660,585
+EFX Equifax, Inc.   Commercial Services               26,472,268,768
+CDW CDW Corporation Technology Services               26,183,263,708
+EIX Edison International    Utilities                 26,139,321,695
+ZBH Zimmer Biomet Holdings, Inc.    Health Technology                 25,853,813,373
+MTB M&T Bank Corporation    Finance               25,831,948,062
+ARE Alexandria Real Estate Equities, Inc.   Finance               25,577,926,050
+FANG    Diamondback Energy, Inc.    Energy Minerals               25,577,874,089
+HRL Hormel Foods Corporation    Consumer Non-Durables                 25,425,117,095
+DAL Delta Air Lines, Inc.   Transportation                25,391,057,860
+EBAY    eBay Inc.   Retail Trade                  25,195,660,211
+ULTA    Ulta Beauty, Inc.   Retail Trade                  25,024,687,355
+FE  FirstEnergy Corp.   Utilities                 24,636,844,347
+DTE DTE Energy Company  Utilities                 24,550,067,783
+RJF Raymond James Financial, Inc.   Finance               24,480,689,826
+TSCO    Tractor Supply Company  Retail Trade                  24,383,656,553
+HIG Hartford Financial Services Group, Inc. (The)   Finance               24,255,044,022
+VMC Vulcan Materials Company (Holding Company)  Non-Energy Minerals               24,030,889,096
+K   Kellogg Company Consumer Non-Durables                 23,971,587,840
+FITB    Fifth Third Bancorp Finance               23,955,227,701
+GPC Genuine Parts Company   Distribution Services                 23,849,209,049
+AVB AvalonBay Communities, Inc. Finance               23,820,320,487
+FTV Fortive Corporation Electronic Technology                 23,733,458,598
+WY  Weyerhaeuser Company    Finance               23,645,013,745
+ACGL    Arch Capital Group Ltd. Finance               23,327,891,029
+EQR Equity Residential  Finance               23,249,571,811
+IR  Ingersoll Rand Inc. Producer Manufacturing                23,238,688,587
+AEE Ameren Corporation  Utilities                 23,202,366,219
+FRC FIRST REPUBLIC BANK Finance               22,901,145,433
+TSN Tyson Foods, Inc.   Consumer Non-Durables                 22,743,994,852
+BAX Baxter International Inc.   Health Technology                 22,730,805,058
+PPL PPL Corporation Utilities                 22,619,697,619
+VRSN    VeriSign, Inc.  Technology Services               22,575,144,528
+LH  Laboratory Corporation of America Holdings  Health Services               22,356,437,777
+LUV Southwest Airlines Company  Transportation                21,951,012,688
+ANSS    ANSYS, Inc. Technology Services               21,949,670,217
+MLM Martin Marietta Materials, Inc. Non-Energy Minerals               21,829,845,513
+ETR Entergy Corporation Utilities                 21,740,193,258
+MKC McCormick & Company, Incorporated   Consumer Non-Durables                 21,714,785,875
+PFG Principal Financial Group Inc   Finance               21,620,172,383
+HBAN    Huntington Bancshares Incorporated  Finance               21,136,056,255
+PWR Quanta Services, Inc.   Industrial Services               21,122,219,159
+XYL Xylem Inc.  Producer Manufacturing                20,939,939,674
+HPE Hewlett Packard Enterprise Company  Electronic Technology                 20,919,251,328
+RF  Regions Financial Corporation   Finance               20,894,204,582
+EXR Extra Space Storage Inc Finance               20,638,646,153
+CFG Citizens Financial Group, Inc.  Finance               20,600,898,043
+VTR Ventas, Inc.    Finance               20,457,230,346
+NTRS    Northern Trust Corporation  Finance               20,285,097,024
+CAH Cardinal Health, Inc.   Distribution Services                 20,058,495,341
+DOV Dover Corporation   Producer Manufacturing                20,056,579,760
+CTRA    Coterra Energy Inc. Energy Minerals               20,019,185,439
+STE STERIS plc (Ireland)    Health Technology                 19,987,549,307
+WAT Waters Corporation  Health Technology                 19,943,123,216
+CHD Church & Dwight Company, Inc.   Consumer Non-Durables                 19,848,444,627
+HOLX    Hologic, Inc.   Health Technology                 19,634,743,945
+EPAM    EPAM Systems, Inc.  Technology Services               19,611,523,974
+CNP CenterPoint Energy, Inc (Holding Co)    Utilities                 19,559,672,283
+TDY Teledyne Technologies Incorporated  Electronic Technology                 19,504,468,471
+WRB W.R. Berkley Corporation    Finance               19,387,721,834
+STLD    Steel Dynamics, Inc.    Non-Energy Minerals               19,377,817,129
+INVH    Invitation Homes Inc.   Finance               19,204,385,246
+CAG ConAgra Brands, Inc.    Consumer Non-Durables                 19,126,861,336
+BBY Best Buy Co., Inc.  Retail Trade                  19,117,248,824
+FSLR    First Solar, Inc.   Electronic Technology                 19,066,413,298
+WAB Westinghouse Air Brake Technologies Corporation Producer Manufacturing                18,839,690,836
+GRMN    Garmin Ltd. Electronic Technology                 18,811,816,046
+MPWR    Monolithic Power Systems, Inc.  Electronic Technology                 18,759,902,104
+CMS CMS Energy Corporation  Utilities                 18,674,786,039
+JBHT    J.B. Hunt Transport Services, Inc.  Transportation                18,600,497,263
+MAA Mid-America Apartment Communities, Inc. Finance               18,532,906,392
+AES The AES Corporation Utilities                 18,495,529,434
+ROL Rollins, Inc.   Consumer Services                 18,492,339,845
+ALGN    Align Technology, Inc.  Health Technology                 18,401,707,665
+WST West Pharmaceutical Services, Inc.  Health Technology                 18,366,842,202
+PAYC    Paycom Software, Inc.   Technology Services               18,262,997,097
+AMCR    Amcor plc   Process Industries                18,166,037,997
+DRI Darden Restaurants, Inc.    Consumer Services                 18,097,577,646
+BALL    Ball Corporation    Process Industries                17,940,537,967
+INCY    Incyte Corporation  Health Technology                 17,898,150,389
+IEX IDEX Corporation    Producer Manufacturing                17,818,237,724
+CLX Clorox Company (The)    Consumer Non-Durables                 17,621,817,489
+EXPD    Expeditors International of Washington, Inc.    Transportation                17,554,334,026
+TTWO    Take-Two Interactive Software, Inc. Technology Services               17,501,856,420
+MOH Molina Healthcare Inc   Health Services               17,470,360,100
+BRO Brown & Brown, Inc. Finance               17,463,492,006
+MRO Marathon Oil Corporation    Energy Minerals               17,388,156,106
+SEDG    SolarEdge Technologies, Inc.    Producer Manufacturing                17,297,227,408
+COO The Cooper Companies, Inc.  Health Technology                 17,246,889,239
+OMC Omnicom Group Inc.  Commercial Services               17,200,324,616
+KEY KeyCorp Finance               17,110,661,569
+TRGP    Targa Resources, Inc.   Utilities                 17,070,969,496
+BR  Broadridge Financial Solutions, Inc.    Technology Services               17,058,845,379
+FOX Fox Corporation Consumer Services                 17,009,331,524
+FOXA    Fox Corporation Consumer Services                 17,009,331,524
+CINF    Cincinnati Financial Corporation    Finance               16,964,902,725
+CF  CF Industries Holdings, Inc.    Process Industries                16,933,112,537
+LYV Live Nation Entertainment, Inc. Consumer Services                 16,888,862,664
+DGX Quest Diagnostics Incorporated  Health Services               16,869,010,972
+HWM Howmet Aerospace Inc.   Electronic Technology                 16,825,667,752
+UAL United Airlines Holdings, Inc.  Transportation                16,771,398,786
+PKI PerkinElmer, Inc.   Health Technology                 16,693,913,190
+SJM J.M. Smucker Company (The) New  Consumer Non-Durables                 16,566,370,477
+ETSY    Etsy, Inc.  Retail Trade                  16,544,352,690
+ATO Atmos Energy Corporation    Utilities                 16,398,008,384
+CPB Campbell Soup Company   Consumer Non-Durables                 16,389,859,412
+FMC FMC Corporation Process Industries                16,297,471,279
+SWKS    Skyworks Solutions, Inc.    Electronic Technology                 16,216,306,973
+J   Jacobs Solutions Inc.   Industrial Services               16,183,451,146
+EXPE    Expedia Group, Inc. Consumer Services                 16,085,945,747
+MOS Mosaic Company (The)    Process Industries                15,995,798,073
+RCL D/B/A Royal Caribbean Cruises Ltd.  Consumer Services                 15,933,565,109
+FDS FactSet Research Systems Inc.   Technology Services               15,831,666,445
+NVR NVR, Inc.   Consumer Durables                 15,768,505,720
+AVY Avery Dennison Corporation  Process Industries                15,625,400,560
+LKQ LKQ Corporation Consumer Durables                 15,496,149,292
+PTC PTC Inc.    Technology Services               15,399,400,065
+IRM Iron Mountain Incorporated (Delaware)   Finance               15,160,736,575
+SYF Synchrony Financial Finance               15,129,182,477
+ZBRA    Zebra Technologies Corporation  Electronic Technology                 15,127,529,957
+SIVB    SVB Financial Group Finance               15,001,809,688
+TER Teradyne, Inc.  Electronic Technology                 14,974,394,631
+MGM MGM Resorts International   Consumer Services                 14,949,910,170
+TXT Textron Inc.    Electronic Technology                 14,914,634,263
+BEN Franklin Resources, Inc.    Finance               14,901,832,813
+PEAK    Healthpeak Properties, Inc. Finance               14,822,195,369
+EVRG    Evergy, Inc.    Utilities                 14,671,965,770
+APA APA Corporation Energy Minerals               14,580,560,107
+FLT FleetCor Technologies, Inc. Commercial Services               14,346,308,893
+GEN Gen Digital Inc.    Technology Services               14,303,862,001
+ESS Essex Property Trust, Inc.  Finance               14,278,216,141
+L   Loews Corporation   Finance               14,217,131,872
+VTRS    Viatris Inc.    Health Technology                 14,139,901,905
+LNT Alliant Energy Corporation  Utilities                 14,007,018,220
+LW  Lamb Weston Holdings, Inc.  Consumer Non-Durables                 13,964,079,135
+IPG Interpublic Group of Companies, Inc. (The)  Commercial Services               13,959,693,281
+AKAM    Akamai Technologies, Inc.   Technology Services               13,937,956,872
+NDSN    Nordson Corporation Producer Manufacturing                13,840,525,072
+NTAP    NetApp, Inc.    Electronic Technology                 13,807,474,639
+RE  Everest Re Group, Ltd.  Finance               13,692,487,399
+BIO Bio-Rad Laboratories, Inc.  Health Technology                 13,554,965,601
+POOL    Pool Corporation    Distribution Services                 13,542,363,879
+LDOS    Leidos Holdings, Inc.   Electronic Technology                 13,492,626,336
+IP  International Paper Company Process Industries                13,451,439,799
+KIM Kimco Realty Corporation (HC)   Finance               13,421,094,191
+TRMB    Trimble Inc.    Electronic Technology                 13,352,260,827
+PARA    Paramount Global    Consumer Services                 13,273,635,762
+JKHY    Jack Henry & Associates, Inc.   Technology Services               13,246,887,157
+SNA Snap-On Incorporated    Consumer Durables                 13,195,108,175
+CE  Celanese Corporation Celanese Corporation   Process Industries                13,189,190,377
+TYL Tyler Technologies, Inc.    Technology Services               13,181,526,708
+UDR UDR, Inc.   Finance               13,171,420,063
+SWK Stanley Black & Decker, Inc.    Consumer Durables                 13,170,433,469
+CBOE    Cboe Global Markets, Inc.   Finance               13,129,789,649
+TECH    Bio-Techne Corp Health Technology                 12,898,185,845
+MTCH    Match Group, Inc.   Technology Services               12,864,838,949
+EQT EQT Corporation Energy Minerals               12,831,927,474
+CCL Carnival Corporation    Consumer Services                 12,731,758,647
+CPT Camden Property Trust   Finance               12,605,462,032
+PKG Packaging Corporation of America    Process Industries                12,581,912,982
+HST Host Hotels Finance               12,441,482,943
+MKTX    MarketAxess Holdings, Inc.  Finance               12,179,652,569
+WDC Western Digital Corporation Electronic Technology                 12,058,003,904
+DPZ Domino’s Pizza Inc  Consumer Services                 11,952,616,095
+VFC V.F. Corporation    Consumer Non-Durables                 11,948,407,608
+STX Seagate Technology Holdings PLC Electronic Technology                 11,926,868,527
+CRL Charles River Laboratories International, Inc.  Commercial Services               11,816,567,503
+GL  Globe Life Inc. Finance               11,806,659,707
+MAS Masco Corporation   Producer Manufacturing                11,698,195,682
+PHM PulteGroup, Inc.    Consumer Durables                 11,461,610,296
+REG Regency Centers Corporation Finance               11,427,246,579
+NI  NiSource Inc    Utilities                 11,331,147,886
+NWS News Corporation    Consumer Services                 11,209,910,324
+NWSA    News Corporation    Consumer Services                 11,209,910,324
+TFX Teleflex Incorporated   Health Technology                 11,189,060,238
+WYNN    Wynn Resorts, Limited   Consumer Services                 11,173,853,278
+BXP Boston Properties, Inc. Finance               11,164,070,991
+CHRW    C.H. Robinson Worldwide, Inc.   Transportation                11,005,834,980
+TAP Molson Coors Beverage Company   Consumer Non-Durables                 10,982,976,380
+EMN Eastman Chemical Company    Process Industries                10,950,320,882
+AAL American Airlines Group, Inc.   Transportation                10,937,831,742
+HSIC    Henry Schein, Inc.  Distribution Services                 10,777,388,129
+KMX CarMax Inc  Retail Trade                  10,568,611,148
+BBWI    Bath & Body Works, Inc. Retail Trade                  10,539,050,050
+BWA BorgWarner Inc. Producer Manufacturing                10,445,606,990
+TPR Tapestry, Inc.  Retail Trade                  10,385,431,822
+JNPR    Juniper Networks, Inc.  Electronic Technology                 10,285,165,299
+CDAY    Ceridian HCM Holding Inc.   Technology Services               10,252,457,165
+CZR Caesars Entertainment, Inc. Consumer Services                 10,129,666,156
+QRVO    Qorvo, Inc. Electronic Technology                 10,104,475,247
+ALLE    Allegion plc    Producer Manufacturing                  9,971,265,492
+WRK Westrock Company    Process Industries                  9,511,864,190
+AOS A.O. Smith Corporation  Producer Manufacturing                  9,380,417,640
+UHS Universal Health Services, Inc. Health Services                 9,379,967,097
+HII Huntington Ingalls Industries, Inc. Electronic Technology                   9,116,760,447
+HAS Hasbro, Inc.    Consumer Durables                   9,098,931,742
+CMA Comerica Incorporated   Finance                 9,023,931,955
+AAP Advance Auto Parts Inc. Retail Trade                    9,017,823,109
+FRT Federal Realty Investment Trust Finance                 8,938,206,224
+IVZ Invesco Ltd Finance                 8,900,134,619
+FFIV    F5, Inc.    Technology Services                 8,891,088,863
+CTLT    Catalent, Inc.  Health Technology                   8,881,203,017
+PNW Pinnacle West Capital Corporation   Utilities                   8,621,283,305
+WHR Whirlpool Corporation   Consumer Durables                   8,397,293,669
+RHI Robert Half International Inc.  Commercial Services                 8,255,653,723
+PNR Pentair plc.    Producer Manufacturing                  8,201,887,934
+DISH    DISH Network Corporation    Consumer Services                   7,992,435,656
+OGN Organon & Co.   Health Technology                   7,981,954,985
+SEE Sealed Air Corporation  Process Industries                  7,902,640,280
+RL  Ralph Lauren Corporation    Distribution Services                   7,881,330,616
+XRAY    DENTSPLY SIRONA Inc.    Health Technology                   7,736,828,247
+ZION    Zions Bancorporation N.A.   Finance                 7,697,833,458
+MHK Mohawk Industries, Inc. Non-Energy Minerals                 7,568,173,937
+NRG NRG Energy, Inc.    Utilities                   7,515,132,392
+SBNY    Signature Bank  Finance                 7,365,097,360
+GNRC    Generac Holdlings Inc.  Producer Manufacturing                  7,194,119,794
+DVA DaVita Inc. Health Services                 7,047,621,991
+AIZ Assurant, Inc.  Finance                 6,656,759,995
+DXC DXC Technology Company  Technology Services                 6,630,479,457
+NCLH    Norwegian Cruise Line Holdings Ltd. Consumer Services                   6,468,430,106
+ALK Alaska Air Group, Inc.  Transportation                  6,265,788,975
+NWL Newell Brands Inc.  Producer Manufacturing                  6,261,904,234
+LUMN    Lumen Technologies, Inc.    Communications                  6,248,879,853
+LNC Lincoln National Corporation    Finance                 5,335,363,865
