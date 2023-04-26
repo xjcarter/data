@@ -9,9 +9,25 @@ import argparse
 ##
 ## beta_map.py:  list the correlation and beta calcs for a list of symbols against a benchmark symbol 
 ## Usage: python beta_map.py <benchmark symbol> --file <symbol_file> --list <comma separated list> --sample_size <sample size>
+##     Optional args: --corr_above <correlation value> --beta_above <beta value>
+##                    --corr_below <correlation value> --beta_below <beta value>
 ##
 
-def map_data(corr_symbol, symbol_list, sample_sz=50):
+def include_from_filters(corr_val, beta_val, corr_limits, beta_limits):
+
+    ## set up correlation and beta filters
+    corr_below, corr_above = corr_limits
+    beta_below, beta_above = beta_limits
+
+    if corr_below is not None and corr_val > corr_below: return False
+    if corr_above is not None and corr_val < corr_above: return False
+    if beta_below is not None and beta_val > beta_below: return False
+    if beta_above is not None and beta_val < beta_above: return False 
+
+    return True
+
+
+def map_data(corr_symbol, symbol_list, sample_sz=50, corr_limits=(None,None), beta_limits=(None,None)):
 
     table_cols = "n Symbol Benchmark Close Benchmark_Close Corr Beta".split()
     daily_table = PrettyTable(table_cols)
@@ -27,13 +43,14 @@ def map_data(corr_symbol, symbol_list, sample_sz=50):
     except:
         raise RuntimeError(f'Cannot find benchmark {corr_symbol} file: {corr_file}')
 
-    # need one additonal day of price history because we need to calc daily returns
+    ## need one additonal day of price history because we need to calc daily returns
     daysback = sample_sz + 1 
     corr_df.set_index('Date', inplace=True)
 
     vv = len(corr_df)
     if vv < daysback:
         raise RuntimeError(f'Not enoungh data points for benchmark {symbol}: len={vv}, daysback={daysback}')
+
 
     errors = []
     csv_data = []
@@ -74,9 +91,12 @@ def map_data(corr_symbol, symbol_list, sample_sz=50):
 
             cc = corr.valueAt(0)
             bb = beta.valueAt(0)
-            values = [sample_sz, symbol, corr_symbol, close_price, corr_price, cc, bb]
-            daily_table.add_row(values)
-            csv_data.append(values)
+
+            if include_from_filters(cc, bb, corr_limits, beta_limits):
+                values = [sample_sz, symbol, corr_symbol, close_price, corr_price, cc, bb]
+                daily_table.add_row(values)
+                csv_data.append(values)
+
         except Exception as e: 
            errors.append(f'Error: {stock_file}, {e}')  
 
@@ -107,6 +127,8 @@ def parse_symbols(sym_string, sym_file):
     v = [x.strip() for x in symbols + file_symbols]
     return v
 
+##     Optional args: --corr_above <correlation value> --beta_above <beta value>
+##                    --corr_below <correlation value> --beta_below <beta value>
 
 if __name__ == '__main__':
     parser =  argparse.ArgumentParser()
@@ -114,7 +136,15 @@ if __name__ == '__main__':
     parser.add_argument("--list", help="command line comma separated list of symbols", type=str, default="")
     parser.add_argument("--file", help="single entry per line symbol file", type=str, default="")
     parser.add_argument("--sample_size", help="sample size of correlation and beta calcs", type=int, default=50)
+    parser.add_argument("--corr_above", help="upside corr limit", type=float, default=None)
+    parser.add_argument("--corr_below", help="downside corr limit", type=float, default=None)
+    parser.add_argument("--beta_above", help="upside beta limit", type=float, default=None)
+    parser.add_argument("--beta_below", help="downside beta limit", type=float, default=None)
+
     u = parser.parse_args()
 
     symbol_list = parse_symbols(u.list, u.file) 
-    map_data(u.benchmark, symbol_list, u.sample_size)
+    corr_limits = (u.corr_below, u.corr_above)
+    beta_limits = (u.beta_below, u.beta_above)
+
+    map_data(u.benchmark, symbol_list, u.sample_size, corr_limits, beta_limits)
