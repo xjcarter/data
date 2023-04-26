@@ -9,7 +9,7 @@ then
     echo "Uaage: fetch_data.sh <fetch_list_file>"
 else
     fetch_file="${home}/${1}"
-    if [ !-d ${fetch_file} ]
+    if [ ! -f ${fetch_file} ]
     then
         echo "fetch_list_file: ${fetch_file} not found."
         exit 1
