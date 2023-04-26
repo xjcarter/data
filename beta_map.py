@@ -27,7 +27,8 @@ def map_data(corr_symbol, symbol_list, sample_sz=50):
     except:
         raise RuntimeError(f'Cannot find benchmark {corr_symbol} file: {corr_file}')
 
-    daysback = int(sample_sz * 1.2)
+    # need one additonal day of price history because we need to calc daily returns
+    daysback = sample_sz + 1 
     corr_df.set_index('Date', inplace=True)
 
     vv = len(corr_df)
@@ -47,35 +48,37 @@ def map_data(corr_symbol, symbol_list, sample_sz=50):
             corr = Corr(sample_size=sample_sz)
             beta = Beta(sample_size=sample_sz)
 
-            count = corr_df.shape[0]
-
             ss = len(stock_df)
             if ss < daysback:
                 errors.append(f'Not enoungh data points for {symbol}: len={ss}, daysback={daysback}')
                 continue
 
+            count = corr_df.shape[0]
+
+            close_price = corr_price = None
             for i in range(count-daysback, count):
                 idate = corr_df.index[i]
                 corr_bar = corr_df.loc[idate]
                 try:
                     stock_bar = stock_df.loc[idate]
                 except:
-                    errors.append(f'Incomplete Data for {symbol} Date: {idate}')
+                    errors.append(f'No Data for {symbol} on Date: {idate}')
                     continue
 
-                close_price = stock_df.loc[idate]['Close'] 
-                corr_close_price = corr_df.loc[idate]['Close'] 
+                close_price = stock_bar['Close'] 
+                corr_price = corr_bar['Close'] 
+                pair = (close_price, corr_price)
 
-                corr.push((close_price, corr_close_price))
-                beta.push((close_price. corr_close_price))
+                corr.push(pair)
+                beta.push(pair)
 
             cc = corr.valueAt(0)
-            bb = beta.valueAt(0))
-            values = [sample_sz, symbol, corr_symbol, close_price, corr_close_price, cc, bb]
+            bb = beta.valueAt(0)
+            values = [sample_sz, symbol, corr_symbol, close_price, corr_price, cc, bb]
             daily_table.add_row(values)
             csv_data.append(values)
-        except: 
-           errors.append(f'Cant find: {stock_file}')  
+        except Exception as e: 
+           errors.append(f'Error: {stock_file}, {e}')  
 
     print(" ")
     print(daily_table)
