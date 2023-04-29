@@ -3,7 +3,7 @@ import yfinance as yf
 from pathlib import Path
 from datetime import datetime, timedelta
 import pandas
-import sys
+import argparse
 
 ## Grabs Daily Data from Yahoo Finance 
 ## Usage: python yahoo_data.py ^DJI ^RUT IBM GOOG
@@ -67,11 +67,29 @@ def get_daily_data(symbols):
     return databank
 
 
+def parse_symbols(sym_string, sym_file):
+    symbols = []
+    if sym_string is not None and len(sym_string) > 0:
+        symbols = sym_string.split()
+
+    file_symbols = []
+    if sym_file is not None and len(sym_file) > 0:
+        with open(sym_file, 'r') as f:
+            file_symbols = f.readlines()
+
+    ## clean whitespace
+    v = [x.strip() for x in symbols + file_symbols]
+    return v
+
+
 if __name__ == '__main__':
-    
-    symbols = sys.argv[1:]
-    if len(symbols) > 0:
-        get_daily_data(symbols)
+    parser =  argparse.ArgumentParser()
+    parser.add_argument("--list", help="command line comma separated list of symbols", type=str, default="")
+    parser.add_argument("--file", help="single entry per line symbol file", type=str, default="")
+    u = parser.parse_args()
+
+    symbol_list = parse_symbols(u.list, u.file) 
+    get_daily_data(symbol_list)
         
 
 
