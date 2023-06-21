@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source /home/jcarter/sandbox/trading/env.sh
-home="/home/jcarter/sandbox/trading/data/"
+source /home/jcarter/work/trading/env.sh
+home="/home/jcarter/work/trading/data/"
 
 echo
 if [ $# -lt 1 ]
@@ -15,8 +15,8 @@ else
         exit 1
     else
         echo "Using fetch_file ${fetch_file} ..."
-        python ${home}/yahoo_data.py --file="${fetch_file}" 
-        python ${home}/data_catalog.py --file="${fetch_file}" 
+        python3 ${home}/yahoo_data.py --file="${fetch_file}" 
+        python3 ${home}/data_catalog.py --file="${fetch_file}" 
     fi
 fi
 
